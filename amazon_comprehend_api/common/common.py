@@ -33,6 +33,3 @@ class comprehender():
         print('Calling DetectSentiment')
         print(json.dumps(self.comprehend_instance.detect_sentiment(Text=self.input_text, LanguageCode='ja'), sort_keys=True, indent=4))
         print('End of DetectSentiment\n')
-
-
-comprehender("眠い").detect_language()
