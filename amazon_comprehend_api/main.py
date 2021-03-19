@@ -5,7 +5,7 @@ import pprint
 
 def main():
     print("call main")
-    common.comprehender("again").detect_language()
+    common.comprehender("test").detect_language()
 
 if __name__ == "__main__":
     main()
